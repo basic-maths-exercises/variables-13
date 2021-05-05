@@ -12,8 +12,9 @@ except:
 import unittest
 from main import *
 
-xvals = np.linspace(0,19,20), 
-line1 = line(xvals,(0.5)**xvals)
+xvals, yvals = np.linspace(0,19,20), np.zeros(20)
+for i in range(20) : yvals[i] = 0.5**i 
+line1 = line(xvals,yvals)
 
 axislabels=["Index", "Geometric series"]
 
