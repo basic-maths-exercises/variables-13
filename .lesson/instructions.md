@@ -2,15 +2,11 @@
 
 Lets now plot the geometric sequence: 
 
-$$
-a_n=\left(\frac{1}{2}\right)^n
-$$
+![](eq1.png)
 
 The first few terms in this series are:
 
-$$
-a_0=\left(\frac{1}{2}\right)^0=1\qquad a_1=\left(\frac{1}{2}\right)^1=\frac{1}{2}\qquad a_2=\left(\frac{1}{2}\right)^2=\frac{1}{4}\qquad a_3=\left(\frac{1}{2}\right)^3=\frac{1}{8}
-$$
+![](eq2.png)
 
 I want you to proceed in a similar way to the previous exercise.  In other words, I want you to create an array.  This time your array should have only 20 elements and you should use a for loop to the elements of this array to the first 20 terms in this sequence.  
 The first element of the array will thus be 0, the second will be 1/2, the third 1/4 and so on. 
